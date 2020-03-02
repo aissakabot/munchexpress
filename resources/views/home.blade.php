@@ -13,8 +13,9 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    You are logged in!
+                    hiii
+                   
+                    <menu-container :items="{{json_encode($menus)}}"></menu-container>
                 </div>
             </div>
         </div>
